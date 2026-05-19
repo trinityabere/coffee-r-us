@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function useProducts() {
   const [products, setProducts] = useState([]);
 
-  const BASE_URL = "http://localhost:3001/products";
+  const BASE_URL = "http://localhost:3000/products";
 
   // GET
   useEffect(() => {

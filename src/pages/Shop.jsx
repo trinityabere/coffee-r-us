@@ -4,13 +4,10 @@ import ProductCard from "../components/ProductCard";
 
 function Shop() {
   const { products } = useProducts();
-
   const [search, setSearch] = useState("");
 
   const filteredProducts = products.filter((product) =>
-    product.name
-      .toLowerCase()
-      .includes(search.toLowerCase())
+    product.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -21,12 +18,10 @@ function Shop() {
 
         <input
           type="text"
-          placeholder="Search"
+          placeholder="Search products..."
           className="search-input"
           value={search}
-          onChange={(e) =>
-            setSearch(e.target.value)
-          }
+          onChange={(e) => setSearch(e.target.value)}
         />
 
         <div className="filter-item">
@@ -51,15 +46,16 @@ function Shop() {
 
       </div>
 
-      {/* GRID */}
+      {/* PRODUCT GRID */}
       <div className="product-grid">
 
-        {filteredProducts.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-          />
-        ))}
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))
+        ) : (
+          <p style={{ color: "white" }}>No products found</p>
+        )}
 
       </div>
     </div>

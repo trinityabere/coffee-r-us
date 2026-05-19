@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Vanilla Bean",
       "description": "Medium roast, nutty flavor",
       "origin": "Colombia",
@@ -9,12 +9,20 @@
       "location": "Location 1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "House Blend",
       "description": "Dark roast, rich flavor",
       "origin": "Vietnam",
       "price": 12,
       "location": "Location 2"
+    },
+    {
+      "name": "rhsghsg",
+      "description": "hthtr",
+      "origin": "afhaetharheth",
+      "price": "23",
+      "id": "BMf8mrsrvoA"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
