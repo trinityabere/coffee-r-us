@@ -1,27 +1,25 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Vanilla Bean",
-      "description": "Medium roast, nutty flavor",
-      "origin": "Colombia",
-      "price": 10,
-      "location": "Location 1"
+      "name": "mimi",
+      "description": "na wewe",
+      "origin": "kazini",
+      "price": "2411",
+      "id": "x6D0psTBCVo"
     },
     {
-      "id": "2",
-      "name": "House Blend",
-      "description": "Dark roast, rich flavor",
-      "origin": "Vietnam",
-      "price": 12,
-      "location": "Location 2"
+      "name": "jvkd",
+      "description": "ljbcad",
+      "origin": "ljbsc",
+      "price": "12",
+      "id": "HIN6mFg1Nng"
     },
     {
-      "name": "rhsghsg",
-      "description": "hthtr",
-      "origin": "afhaetharheth",
+      "name": "vietnam fine coffee",
+      "description": "blended",
+      "origin": "vietnnam",
       "price": "23",
-      "id": "BMf8mrsrvoA"
+      "id": "fXF0HN2rJsI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
