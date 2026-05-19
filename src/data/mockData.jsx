@@ -1,39 +1,30 @@
 const mockProducts = [
-  {
-    id: 1,
-    name: "Ethiopian Yirgacheffe",
-    description: "Floral and citrus notes with a smooth finish.",
-    origin: "Ethiopia",
-    price: 12,
-  },
-  {
-    id: 2,
-    name: "Kenyan AA Coffee",
-    description: "Bright acidity with berry undertones.",
-    origin: "Kenya",
-    price: 14,
-  },
-  {
-    id: 3,
-    name: "Colombian Supremo",
-    description: "Well-balanced with chocolatey flavor.",
-    origin: "Colombia",
-    price: 10,
-  },
-  {
-    id: 4,
-    name: "Brazil Santos",
-    description: "Nutty and low acidity, very smooth.",
-    origin: "Brazil",
-    price: 9,
-  },
-  {
-    id: 5,
-    name: "Guatemala Antigua",
-    description: "Rich and spicy with a smoky finish.",
-    origin: "Guatemala",
-    price: 13,
-  },
+ {
+ "store_info": [
+    {
+      "id": 1,
+      "name": "Coffee R Us",
+      "description": "The go to store for coffee",
+      "phone_number": "555-5555"
+    }
+   ],
+  "coffee": [
+    {
+      "id": 1,
+      "description": "Medium Roast, nutty flavor",
+      "name": "Vanilla bean",
+      "origin": "Columbia",
+      "price": 10.00
+    },
+    {
+      "id": 2,
+      "description": "Dark Roast, Rich flavor",
+      "name": "House Blend",
+      "origin": "Vietnam",
+      "price": 12.00
+    }
+   ]
+}
 ];
 
 export default mockProducts;
